@@ -1,0 +1,11 @@
+{
+  "name": "profile_management",
+  "version": "0.1.0",
+  "description": "Profile management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aman Verma",
+  "license": "ISC"
+}
