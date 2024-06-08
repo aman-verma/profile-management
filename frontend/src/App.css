@@ -37,3 +37,30 @@ div.content {
   display: table-cell;
   vertical-align: middle;
 }
+
+.responsive-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0px;
+}
+
+.responsive-table .header {
+  font-weight: 600;
+}
+
+.responsive-table > div {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .responsive-table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-table {
+    grid-template-columns: 1fr;
+  }
+}
