@@ -53,6 +53,11 @@ div.content {
   padding: 10px;
 }
 
+.responsive-table button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .responsive-table {
     grid-template-columns: repeat(2, 1fr);
